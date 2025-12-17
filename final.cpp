@@ -6,7 +6,7 @@ using namespace cv;
 using namespace std;
 
 const char* params = 
-"{ input | pessoas.mp4 | Path to a video or a sequence of images }"
+"{ input | people.mp4 | Path to a video or a sequence of images }"
 "{ algo | MOG2 | Background subtraction method (KNN, MOG2) }";
 
 int main(int argc, char* argv[])
@@ -91,3 +91,4 @@ int main(int argc, char* argv[])
     }
     return 0;
 }
+
